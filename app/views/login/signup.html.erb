@@ -1,0 +1,70 @@
+<div id="main" class="cf">
+	<meta http-equiv="Content-Style-Type" content="text/css"/> 
+ 	<link rel="stylesheet" type="text/css" href="assets/stylesheets/login.css.scss" media="screen, projection"/>
+	<div>
+		<img class="signup" src="assets/estilo/signup.png"/>
+			<!-- 
+		<div class="signup_text">
+			<span>
+				<li class="signup_text1"><%=t :bocadillo2%></li>
+				<li><%=t :bocadillo3%></li>				
+			</span>
+		</div>
+			-->
+		<div class="paso1">
+			<p class="paso1"><%=t :paso1%></p>
+			<p class="paso1exp"><%=t :paso1exp%></p>
+			<div class="cl-left">&nbsp;</div>
+		</div>	
+		<div class="paso2">
+			<p class="paso1"><%=t :paso2%></p>
+			<p class="paso1exp"><%=t :paso2exp%></p>
+			<div class="cl-left">&nbsp;</div>
+		</div>
+		<div class="signup_back">
+			<div class="back_verde_signup">
+				<p class="elige"><%=t :elige%></p>
+				<img class="FB" src="assets/estilo/facebook.png">
+				<p class="or"><%=t :or%></p>
+				<img class="gmail" src="assets/estilo/Gmail.png">
+				<div class="cl-left">&nbsp;</div>
+			</div>
+			<div class="registro">
+				<p class="elige"><%=t :formulario%></p>
+				
+			<!--	<h1>Bienvenido <%= @nombre %></h1>
+				<%= form_tag 'signup', :method => 'get' do %>
+					<p>Nombre:
+					<%= text_field_tag 'nombre_usuario', @nombre %></p>
+					<%= submit_tag 'Registrarse' %>
+				<% end %> -->
+				
+				<form accept-charset="UTF-8" action="" id="new_user" method="post" enctype="multipart/form-data">
+					<input name="authenticity_token" type="hidden" value="<%=form_authenticity_token %>" />
+					<% if session[:avatar] == nil %>
+						<img class="avatar" src="/assets/estilo/avatar.jpg" />
+					<% else %>
+						<img class="avatar" src="/assets/<%=session[:avatar] %>" />
+					<% end %>
+					<input name="avatar" type="file" id="avatar" value=""/>
+					<input name="eliminarAvatar" type="button" id="eliminarAvatar" value="<%=t :cancelarAvatar%>"/>
+	  				<input name="Username" id="registro" placeholder="<%=t :nombre%>" size="30" type="text" value="">
+					<input name="email_of_user" id="registro" placeholder="<%=t :email%>" size="30" type="text" value="">
+					<input name="password" id="registro" placeholder="<%=t :contraseña%>" size="30" type="password">
+					<input name="password_confirmation" id="registro" placeholder="<%=t :confirmar_contraseña%>" size="30" type="password">
+					<textarea wrap="virtual" cols="30" rows="7" name="comment" id="registro" placeholder="<%=t :comenta%>">
+					</textarea>
+					<div id="enviar">
+						<p class="advertencia"><%=t :advertencia%></p>
+						<p class="advertencia2"><%=t :advertencia2%></p>
+						<input class="enviar" type="button" id="submitButton" value="<%=t :envio_datos%>"/>
+						<div class="cl-left">&nbsp;</div>
+					</div>
+				</form> 
+				</form>
+			</div>
+		</div>
+	</div>
+</div>
+
+

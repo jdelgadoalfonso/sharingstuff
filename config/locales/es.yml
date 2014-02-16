@@ -1,0 +1,134 @@
+# Sample localization file for English. Add more files in this directory for other locales.
+# See https://github.com/svenfuchs/rails-i18n/tree/master/rails%2Flocale for starting points.
+
+es:
+    
+# menu
+  home: "Inicio"
+  search: "Buscar"
+  
+# home
+
+  stepone: "1. Piensa que STUFF puedes compartir y regístrate gratis"
+  steptwo: "2. Encuentra el STUFF que necesites en cualquier lugar y pídelo!"
+  signup: "¡Regístrate gratis!"
+  azulp: "¡Es fácil! Con SharingStuff podrás:"
+  azul1: "- Ragalar STUFF que ya no quieras a otros que le den un mejor uso"
+  azul2: "- Dejar prestado por el tiempo que puedas STUFF que normalmente no utilices"
+  azul3: "- Conseguir STUFF que necesites de la persona que lo regale"
+  azul4: "- Pedir prestado STUFF que sólo necesites durante un tiempo"
+  azul5: "- Crear un grupo de STUFF en tu vecindad y compartirlos!"
+  definicionSS: "SharingStuff es una red social basada en la confianza entre SHARERS.
+Si eres miembro de SharingStuff, formarás parte de la mayor red social para dar y recibir cosas. NO interviene el dinero nunca. NO es un trueque. 
+Tan sólo comparte todo aquello quieras regalar o puedas dejar prestado, y solicita lo que necesitas al SHARER que te lo pueda dar o dejar prestado.
+¡Crea un Grupo de Stuff en tu comunidad de vecinos!"
+
+#Signup
+
+  bocadillo: "de arte!!"
+  bocadillo2: "Entonces, ¿te quieres unir a SharingStuff?"
+  bocadillo3: "Tan sólo tienes que seguir dos sencillos pasos...atent@!"
+  paso1: "Paso 1"
+  paso1exp: "Rellena tus datos"
+  paso2: "Paso 2"
+  paso2exp: "Incluye tus Stuff"
+  elige: "Elige tu forma más fácil de entrar en SharingStuff:"
+  or: "-- o --"
+  formulario: "Si lo prefieres, puedes obtener tu cuenta con el siguiente formulario:"
+  nombre: "usuari@"
+  email: "correo electrónico"
+  contraseña: "contraseña"
+  confirmar_contraseña: "confirmar contraseña"
+  comenta: "Exprésate... si quieres, claro."
+  cancelarAvatar: "Cancelar subir foto"
+  envio_datos: "Enviar"  
+  advertencia: "¡Ojo! Al pulsar enviar, muestras conformidad con nuestras Condiciones de Uso y Política de privacidad"
+  advertencia2: "(No vamos a hacer un mal uso de tus datos...)"
+  
+#Signup2
+
+  welcome: "¡¡ Bienvenid@ a SharingStuff !!"
+  welcome2: "Para finalizar tu inscripción, tan sólo tienes que agregar cualquier Stuff que no sueles usar o que ya no necesites"
+  localizacion: "Selecciona el país, provincia o estado y ciudad para que otros Sharers puedan hacer una búsqueda de Stuff por región"
+  pais: "Selecciona un país"
+  provincia: "Provincia o Estado"
+  ciudad: "Ciudad"
+  clasificacion: "Elige en qué categorías se puede incluir tu Stuff (intenta que sea concreto, aunque puedes incluir varias opciones)"
+  ocio: "Tiempo Libre"
+  libros: "Libros"
+  complementos: "Complementos"
+  ropa: "Ropa"
+  vehiculos: "Vehículos"
+  nombrestuff: "Nombre del Stuff:"
+  descripcionStuff: "Descripción de tu Stuff:"
+  
+#Search
+  buscar: "Puedes realizar tu búsqueda de Stuff aplicando los siguiente filtros:"
+  categoria: "Búsqueda por categoría"
+  bebe: "Bebés"
+  complemento: "Complementos"
+  deporte: "Deportes"
+  electrodomestico: "Electrodomésticos"
+  herramienta: "Herramientas"
+  hogar: "Hogar"
+  tecnologia: "Tecnología"
+  instrumento: "Instrumentos musicales"
+  jardin: "Jardinería"
+  juego: "Juegos/ juguetes"
+  libro: "Libros"
+  mascota: "Mascotas"
+  otro: "Otros"
+  ropa: "Ropa"
+  salud: "Salud/bienestar"
+  telefonia: "Telefonía/ imagen/ sonido"
+  ocio: "Tiempo libre/ ocio"
+  vehiculo: "Vehículos"
+  videojuego: "Videojuegos/ cine/ música"
+  busqGral: "Nombre del Stuff"
+  busqLugar: "Búsqueda por lugar"
+  disponibilidad: "Sólo Stuff disponibles"
+
+
+#Terms
+  terms_titulo: "POLÍTICA DE PRIVACIDAD"
+  terms0: "Actualizada a 4 de abril del 2013" 
+  terms00: "En esta declaración de Privacidad (en adelante Normas) te explicamos cómo SharingStuff.net garantiza la seguridad de la página web y los datos recogidos en ella y detalla el uso que se puede hacer con el contenido de la misma."
+  terms1: "1. EL PORTAL WEB"
+  terms11: "El dominio www.SharingStuff.net pertenece a Jose Antonio Delgado Alfonso y María Ferrer Chamorro, los cuales han desarrollado íntegramente la idea, soporte técnico, diseño, textos e imágenes."
+  terms12: "Cualquier persona física podrá navegar libremente por el Portal sin ninguna excepción, siempre y cuando respete las presentes Normas. Los propietarios de la web se reservan es derecho de revisar y/o modificar las Normas, que tendrán vigencia a partir de la fecha arriba expuesta, por lo que se recomienda a los/as usuarios/as que consulten la presente página con frecuencia."
+  terms2: "2. REGISTRO" 
+  terms21: "La persona que decida formar parte de SharingStuff.net, deberá registrarse previamente en el apartado correspondiente. Para facilitar un registro más rápido, se podrá hacer uso de su propia cuenta de Facebook o Gmail, y en el caso de que no se disponga de estas cuentas, se podrá realizar desde la propia plataforma web."
+  terms22: "Se pedirán los siguientes datos: usuario y contraseña (los/as usuarios/as son responsables de su nivel de seguridad para acceder a su cuenta personal), correo electrónico y fotografía de perfil (opcional),  todo ello indicando expresamente que es consciente y acepta estas Normas al señalar la casilla de 'Acepto los términos y condiciones de uso, así como la política de privacidad', consintiendo así que SharingStuff.net trate sus datos. En ese momento recibirá un email que confirma la recepción de los mismos. Para cumplimentar el registro deberá incluir como mínimo un objeto propio que desee regalar y/o dejar prestado, al que le debe incluir una localización aproximada."
+  terms23: "La aceptación las Normas de la página web es permanente, constante y ratificada por el hecho de la utilización de su cuenta personal y contraseña."  
+  terms3: "3. PROTECCIÓN DE DATOS"
+  terms31: "Los datos facilitados nos servirán para ponerte en contacto con otros miembros de la red social con los que quieras compartir cualquier objeto. En ningún momento se utilizarán para enviar publicidad intencionadamente ni para realizar cualquier otro uso fuera de la propia actividad de la web. En cualquier caso siempre se consultará con antelación y personalmente. Los/as usuarios/as son responsables de la veracidad de los datos facilitados a SharingStuff.net, así como de la actualización de los mismos cada vez que sufran algún cambio."
+  terms32: "Además, SharingStuff.net adoptará todas las medidas a su alcance para garantizar el cumplimiento con la Ley Orgánica de Protección de Datos de Carácter Personal 15/1999, incluyendo sus datos en un fichero automatizado inscrito en la Agencia de Protección de Datos."
+  terms33: "En cualquier momento tienes derecho de acceso, rectificación y cancelación de los datos personales comunicados, remitiendo un e-mail a info.sharingstuff@gmail.com."
+  terms4: "4. DERECHOS, OBLIGACIONES Y EXCLUSIÓN DE RESPONSABILIDAD" 
+  terms41: "Para garantizar el uso correcto de la plataforma web, debemos incluir obligaciones que los/as usuarios/as tienen que cumplir en todo momento, ya estén registrados o no en la web."      
+  terms42: "El/la usuario/a se compromete a hacer un uso adecuado de los contenidos y servicios que SharingStuff.net ofrece y a no emplearlos para (i) incurrir en actividades ilícitas, ilegales o contrarias a la buena fe y al orden público; (ii) difundir contenidos o propaganda de carácter racista, xenófobo, pornográfico-ilegal, de apología del terrorismo o atentatorio contra los derechos humanos; (iii) provocar daños en los sistemas de SharingStuff.net, de sus proveedores o terceras personas, introducir o difundir en la red virus informáticos o cualesquiera otros sistemas físicos o lógicos que sean susceptibles de provocar los daños anteriormente mencionados; (iv) intentar acceder y, en su caso, utilizar las cuentas de correo electrónico de otros usuarios y modificar o manipular sus mensajes."
+  terms43: "El/la usuario/a será único/a responsable frente a otros/as usuarios/as y terceras personas de la información en cualquier formato depositada en la web o transmitida a título personal."
+  terms44: "SharingStuff.net no será responsable, ni directa, ni indirecta ni subsidiariamente, de los daños y perjuicios de cualquier naturaleza que puedan derivarse de la falta de veracidad, exactitud y/o autenticidad, legalidad de cualquier datos o información contenida en cualquiera de los medios utilizados u opiniones vertidas por los/as usuarios/as a través de los foros, chats, u otras herramientas de participación."
+  terms45: "Asimismo SharingStuff.net se reserva el derecho de cancelar cualquier cuenta que genere cualquier conflicto o con información falsa o no actualizada y de retirar todos aquellos comentarios y aportaciones que vulneren los compromisos anteriormente expuestos." 
+  terms5: "5. EXCLUSIÓN DE GARANTÍAS Y RESPONSABILIDAD EN LOS CONTENIDOS DE LA WEB" 
+  terms51: "SharingStuff.net no garantiza en modo alguno que las funciones contenidas en el Portal o cualesquiera otros materiales del mismo se ofrezcan ininterrumpidamente o libres de cualquier error, ni que los errores sean subsanados, o la transmisión de virus u otros componentes dañinos."
+  terms52: "SharingStuff.net no será responsable, ni directa ni indirectamente, de las interrupciones del Portal que puedan afectar la recepción, procesamiento, aceptación o acuerdo de los listados o transacciones en el Portal." 
+  terms53: "SharingStuff.net tiene el derecho de cambiar, suspender o interrumpir, en cualquier momento y sin responsabilidad alguna, cualquier aspecto del servicio, incluyendo horas de operatividad. Del mismo modo tendrá el derecho a imponer límites o restricciones a determinadas utilizaciones del Servicio."
+  terms6: "6. EXCLUSIÓN DE GARANTÍAS Y RESPONSABILIDAD EN LOS OBJETOS"
+  terms61: "Los  objetos regalados y/o prestados entre miembros de SharingStuff.net están sujetos a los acuerdos establecidos por los propios participantes, quedando SharingStuff.net libre de toda obligación desde el momento en el que éstos se ponen en contacto."
+  terms62: "Será exclusivamente responsabilidad de los/las usuarios/as la información que intercambien, pudiendo concretar entre los mismos el procedimiento para compartir los objetos solicitados, el tiempo de préstamo y la vía más adecuada para ello, e incluso facilitar otro modo de contacto más cómodo para ambos. El/la usuario/a se reserva el derecho de aceptar el hecho de compartir o no sus objetos, basándose en las puntuaciones y comentarios de quien realiza la petición, quedando SharingStuff.net libre de cualquier responsabilidad que se derive de dicha transacción."
+  terms63: "La persona propietaria de cualquier objeto incluido en su perfil, debe comunicar con antelación los desperfectos que tenga, así como la forma de uso si así lo tuviese, y/o acordar una la compensación más adecuada en el caso recibir el objeto deteriorado una vez prestado."
+  terms7: "7. COOKIES Y ARCHIVOS DE REGISTRO"
+  terms71: "SharingStuff.net podrá colocar “cookies” en el disco duro y/o memoria del dispositivo con el que acceda al portal, a fin de reconocerlo como usuario recurrente y personalizar su uso. Los cookies se guardarán en el disco duro de su ordenador o memoria de su dispositivo hasta que usted los elimine. Podrá hacer que su navegador le avise de la presencia de cookies o que los rechace automáticamente. Si rechaza los cookies podrá seguir accediendo al sitio web, si bien ello podrá suponer la limitación en el uso de algunas de las prestaciones o impedir el buen funcionamiento del sitio web."  
+  terms8: "8. ENLACES"
+  terms81: "Si en la presente web se facilitasen enlaces o hipervínculos hacía otros sitios de Internet, SharingStuff.net no ejercerá ningún control sobre dichos sitios, ni asumirá responsabilidad alguna por los contenidos o información de los mismos, ni garantizará su disponibilidad técnica, calidad, fiabilidad, exactitud, amplitud, veracidad, validez y constitucionalidad. Igualmente la inclusión de estas conexiones externas no implicará ningún tipo de asociación, fusión o participación con las entidades conectadas."
+  terms9: "9. PROPIEDAD INTELECTUAL"
+  terms91: "SharingStuff.net es titular de todos los derechos de propiedad intelectual de su página web, así como de los elementos contenidos en la misma (a título enunciativo, imágenes, sonido, audio, vídeo, software o textos; marcas o logotipos, etc.). Todos los derechos reservados. En virtud de los dispuesto en los artículos 8 y 32.1, párrafo segundo, de la Ley de Propiedad Intelectual, quedan expresamente prohibidas la reproducción, la distribución y la comunicación pública, incluida su modalidad de puesta a disposición, de la totalidad o parte de los contenidos de esta página web, con fines comerciales, en cualquier soporte y por cualquier medio técnico, sin la autorización de SharingStuff.net. El/la usuario/a se compromete a respetar los derechos de Propiedad Intelectual e Industrial titularidad de SharingStuff.net."
+  terms92: "Podrá visualizar los elementos del sitio web e incluso imprimirlos, copiarlos y almacenarlos siempre y cuando sea, única y exclusivamente, para su uso personal y privado. El/la usuario/a deberá abstenerse de suprimir, alterar, eludir o manipular cualquier dispositivo de protección o sistema de seguridad que estuviera instalado en la página de SharingStuff.net."
+
+#Footer
+
+  sharingstuff2013: "SharingStuff 2013. Todos los derechos reservados."
+  politica: "Política de Privacidad"
+  condiciones: "Condiciones de Uso"
+  

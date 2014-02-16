@@ -1,0 +1,46 @@
+// Place all the styles related to the Login controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+//= require ./jquery-ui/jquery-ui-1.10.2.custom.css
+
+#map {
+  width: 700px;
+  height: 350px;
+  margin: 15px 0px 0px 30px;
+}
+
+.pac-container {
+  z-index: 2000 !important;
+}
+
+#stuffForm {
+  display:inline-block;
+  vertical-align:top;
+}
+
+#nombreStuff {
+  background-color: #FBFBEF;
+}
+
+#categorias {
+  width: 45%; 
+  float: left;
+  margin-left: -11px;
+}
+
+#descripStuff {
+  padding: 15px 0px 15px 0px;
+  float: left;
+}
+
+#descripcion{
+    background-color: #FBFBEF;
+}
+
+#checkbox{
+  float: left;
+}
+
+.tipoStuff{
+  width: 40px;
+}

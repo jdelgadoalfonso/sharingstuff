@@ -1,0 +1,122 @@
+<div id="main" class="cf">
+	<div>
+		<img class="signup" src="assets/estilo/signup.png"/>
+			<!-- 
+		<div class="signup_text">
+			<span>
+				<li class="signup_text1"><%=t :bocadillo2%></li>
+				<li><%=t :bocadillo3%></li>				
+			</span>
+		</div>
+			-->
+			
+		<div class="paso1_2">
+			<p class="paso1"><%=t :paso1%></p>
+			<p class="paso1exp"><%=t :paso1exp%></p>
+			<div class="cl-left">&nbsp;</div>
+		</div>	
+		<div class="paso2_2">
+			<p class="paso1"><%=t :paso2%></p>
+			<p class="paso1exp"><%=t :paso2exp%></p>
+			<div class="cl-left">&nbsp;</div>
+		</div>
+		<div class="signup_back">
+			<div class="back_verde_signup">
+				<p class="welcome"><%=t :welcome%></p>
+				<p class="welcome2"><%=t :welcome2%></p>
+				<div class="cl-left">&nbsp;</div>
+			</div>
+			<div class="registro">
+				<p class="elige"><%=t :formulario%></p>
+				<form accept-charset="UTF-8" action="/new_user" id="new_user" method="post">
+					<p class="welcome2"><%=t :localizacion%></p>
+					<!--select class="countries" name="countries">
+						<% @countries.each do |c| %>
+						<option value="<%=c.valor%>"><%=c.nombre %></option>
+						<% end %>
+					</select-->
+					<input id="lugar" name="lugar" type="registro" placeholder="<%=t :provincia%>" size="30" type="text">
+					<div id="map"></div>					
+					<p class="welcome2"><%=t :clasificacion%></p>
+					<div class="clasificacion">
+						<table>
+							<thead>
+								<tr>
+									<th scope="col">Objeto</th>
+									<th scope="col">Categorias</th>
+									<th scope="col"></th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<th scope="row" class="spec">Bici</th>
+									<td>TODO</td>
+									<td>TODO</td>
+								</tr>
+							</tbody>
+							<tfoot>
+								<tr>
+									<td colspan="3" class="nobg">
+										
+									</td>
+								</tr>
+							</tfoot>
+						</table>
+					</div>
+					<div id="enviar">
+						<p class="advertencia"><%=t :advertencia%></p>
+						<p class="advertencia2"><%=t :advertencia2%></p>
+						<input class="enviar" type="submit" value="<%=t :envio_datos%>"/>
+						<div class="cl-left">&nbsp;</div>
+					</div>
+				</form>
+			</div>
+		</div>
+</div>
+<div id="stuffForm" title="Basic dialog">
+	<form accept-charset="UTF-8" action="" id="new_stuff" method="post" enctype="multipart/form-data">
+		<input name="authenticity_token" type="hidden" value="<%=form_authenticity_token %>" />
+		<% if session[:avatar] == nil %>
+			<img class="avatar" src="/assets/estilo/avatar.jpg" />
+		<% else %>
+			<img class="avatar" src="/assets/<%=session[:avatar] %>" />
+		<% end %>
+		<div>
+			<span><%=t :nombrestuff%></span>
+			<input id="nombreStuff" type="text" />
+		</div>
+		<div id= "categorias">
+			<select id="categotiasNoIncluidas" multiple="multiple">
+			<% @categorias.each do |c| %>
+				<option data-order="<%=c.id %>" value="<%=c.valor %>"><%=t c.nombre%></option>
+			<% end %>
+			</select>
+		</div>
+		<div style="width: 10%; float: left;">
+			<button id="quitarTodos">&nbsp;&lt;&lt;&nbsp;</button>
+			<button id="quitarSeleccionados">&nbsp;&lt;&nbsp;</button>
+			<button id="anadirSeleccionados">&nbsp;&gt;&nbsp;</button>
+			<button id="anadirTodos">&nbsp;&gt;&gt;&nbsp;</button>
+		</div>
+		<div style="width: 45%; float: left;">
+			<select id="categotiasIncluidas" multiple="multiple">
+			</select>
+		</div>
+		<div id="descripStuff">
+			<span><%=t :descripcionStuff%></span>
+			<textarea id="descripcion"></textarea>
+		</div>
+		<div id="checkbox">
+			<input type="checkbox" name="prestamo" value="prestamo">
+			<img class="tipoStuff" src="assets/estilo/stuff_ida_vuelta.svg"/>
+			<input type="checkbox" name="regalar" value="regalar">
+			<img class="tipoStuff" src="assets/estilo/stuff_ida.svg"/>
+			<input type="checkbox" name="reutilizar" value="reutilizar">
+			<img class="tipoStuff" src="assets/estilo/stuff_reciclable.svg"/>
+		</div>
+		<div>
+			<button id="ok">Aceptar</button>
+			<button id="cancel">Cancelar</button>
+		</div>
+	</form>
+</div>

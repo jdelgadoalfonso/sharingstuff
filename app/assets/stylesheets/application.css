@@ -1,0 +1,45 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the top of the
+ * compiled file, but it's generally better to create a new file per style scope.
+ *
+ *= require ./application/normalize.css
+ *= require ./application/main.css
+ *= require ./application/social.css
+ *= require ./application/widgets.css
+ *= require ./application/superfish.css
+ *= require ./application/nivo-slider.css
+ *= require ./application/entry-content.css
+ *= require ./application/forms.css
+ *= require ./application/comments.css
+ *= require ./application/shortcodes.css
+ *= require ./application/style.css
+ *= require ./application/responsive.css
+ *= require_self
+ */
+
+
+@font-face {
+    font-family: "Designer-Notes";
+	src: url(/assets/fuentes/Designer-Notes.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: "ptc";
+	src: url(/assets/fuentes/ptc.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: "Tuffy";
+	src: url(/assets/fuentes/Tuffy.ttf) format("truetype");
+}
+
+a {
+	text-decoration: none;
+}
+

@@ -1,0 +1,42 @@
+<div id="main" class="cf">
+	<div class="busqueda_naranja">
+		<p class="welcome"><%=t :buscar%></p>
+		<input name="busqueda" type="busqueda" placeholder="<%=t :busqLugar%>" size="30" type="text">
+		<select id="categoria" name="categoria"><option value=""><%=t :categoria%></option>
+			<option value="bebe"><%=t :bebe%></option>
+			<option value="rop"><%=t :ropa%></option>
+			<option value="compl"><%=t :complemento%></option>
+			<option value="lib"><%=t :libro%></option>
+			<option value="dep"><%=t :deporte%></option>
+			<option value="sal"><%=t :salud%></option>
+			<option value="oci"><%=t :ocio%></option>
+			<option value="jue"><%=t :juego%></option>
+			<option value="inst"><%=t :instrumento%></option>
+			<option value="masc"><%=t :mascota%></option>
+			<option value="jard"><%=t :jardin%></option>
+			<option value="hog"><%=t :hogar%></option>
+			<option value="elect"><%=t :electrodomestico%></option>
+			<option value="herr"><%=t :herramienta%></option>
+			<option value="tel"><%=t :telefonia%></option>
+			<option value="tecn"><%=t :tecnologia%></option>
+			<option value="vid"><%=t :videojuego%></option>
+			<option value="veh"><%=t :vehiculo%></option>
+			<option value="otr"><%=t :otro%></option>
+		</select>
+		<input name="busqueda" type="busqueda" placeholder="<%=t :busqGral%>" size="30" type="text">
+		<div class="checkbox">
+			<input type="checkbox" name="prestamo" value="prestamo">
+			<img class="tipoStuff" src="assets/estilo/stuff_ida_vuelta.svg"/>
+			<input type="checkbox" name="regalar" value="regalar">
+			<img class="tipoStuff" src="assets/estilo/stuff_ida.svg"/>
+			<input type="checkbox" name="reutilizar" value="reutilizar">
+			<img class="tipoStuff" src="assets/estilo/stuff_reciclable.svg"/>
+		</div>
+		<div class="disponibilidad">
+			<input type="checkbox" name="disponibilidad" value="disponibilidad">
+			<p class="welcome" id="disponibilidad"><%=t :disponibilidad%></p>
+		</div>
+		<div class="cl-left">&nbsp;</div>
+	</div>
+</div>
+					

@@ -1,0 +1,133 @@
+# Sample localization file for English. Add more files in this directory for other locales.
+# See https://github.com/svenfuchs/rails-i18n/tree/master/rails%2Flocale for starting points.
+
+en:
+    
+# menu
+  home: "Home"
+  search: "Search"
+  
+# home  
+  stepone: "1. Think about what STUFF you can share and sign up for free"
+  steptwo: "2. Find STUFF that you need all over the world and get it!"
+  signup: "Sign Up Free!"
+  azulp: "It's easy! With SharingStuff you can:"
+  azul1: "- Give away stuff that you don't need any more to people wich give them a better use"
+  azul2: "- Lend for a while stuff that you don't normally use"
+  azul3: "- Get STUFF that you need from someone who give it away"
+  azul4: "- Borrow STUFF that you only need for a while"
+  azul5: "- Create Stuff's Group in your neighborhood and share it!"
+  definicionSS: "SharingStuff is a social network which is supported by the confidence between SHARERS.
+If you are member of SharingStuff, you will take part of the biggest social network to give and recive things. There is NO money when you share. It is NOT a barter. 
+Just share everything that you want to give away or lend, and request to a Sharer that you need.
+Create a Stuff's Group in your neighborhood!"
+
+#signup
+
+  bocadillo: "great!"
+  bocadillo2: "So, do you want to join to SharingStuff? Great!"
+  bocadillo3: "cadads"
+  paso1: "Step 1"
+  paso1exp: "Fill out your data"
+  paso2: "Step 2"
+  paso2exp: "Add your Stuff"
+  elige: "Choose your best way to get your account with SharingStuff:"
+  or: "-- or --"
+  formulario: "If you want, you can get your account filling this form:"
+  nombre: "username"
+  email: "email address"  
+  contraseña: "password"
+  confirmar_contraseña: "confirm password"
+  comenta: "Share something here!"
+  cancelarAvatar: "Cancel upload"
+  envio_datos: "Send"
+  advertencia: "Watch out! if you click Send, you agree our Terms of Use and Privacy Policy"
+  advertencia2: "(We aren't going to misuse your data...)"
+  
+#signup2
+
+  welcome: "Welcome to SharingStuff!!"
+  welcome2: "To finish your sign-up, you must to add any STUFF that you don't usually need or just you want it to get away"
+  localizacion: "Select the country, state or province and city in order to other Sharers could search Stuff by location"
+  pais: "Select a country"
+  provincia: "State or Province"
+  ciudad: "City"
+  clasificacion: "Check the best category for your Stuff (try to focus it, although you can check several options)"
+  ocio: "Free Time"
+  libros: "Books"
+  complementos: "Accesories"
+  ropa: "Clothes"
+  vehiculos: "Vehicles"
+  nombrestuff: "Stuff's Name:"
+  descripcionStuff: "Stuff's Description:"
+  
+#Search
+  buscar: "You can search for Stuff applying the following filters:"
+  categoria: "Search by category"
+  bebe: "Beby"
+  complemento: "Accessory"
+  deporte: "Sport"
+  electrodomestico: "Electrical appliance"
+  herramienta: "Tools"
+  hogar: "Home"
+  tecnologia: "Tecnology"
+  instrumento: "Musical instruments"
+  jardin: "Gardening"
+  juego: "Games/ toys"
+  libro: "Books"
+  mascota: "Pets"
+  otro: "Others"
+  ropa: "Clothes"
+  salud: "Health/ welfare"
+  telefonia: "Phones/ images/ sound"
+  ocio: "Leasure time"
+  vehiculo: "Vehicles"
+  videojuego: "Videogames/ cinema/ music"
+  busqGral: "Name of Stuff"
+  busqLugar: "Search by location"
+  disponibilidad: "Only available Stuff"
+
+#Terms
+
+  terms_titulo: "PRIVACY POLICY"
+  terms0: "Effective Date: April 4, 2013" 
+  terms00: "In this Privacy Statement (from this point forward Rules) SharingStuff.net's how to ensure the safety of the site and the information users collected in it and details the use to do with the content of it."
+  terms1: "1. THE WEBSITE"
+  terms11: "The domain www.SharingStuff.net belongs to Jose Antonio Delgado Alfonso and Maria Ferrer Chamorro, which have fully developed the idea, technical support, design, text and images."
+  terms12: "Any individual may freely browse the Site without exception, if you observe these Rules. The site holders reserve the right to review it and / or modify the Rules, which will take effect from the date set forth above, so it is recommended to consult this page frequently."
+  terms2: "2. REGISTER" 
+  terms21: "The person who decides to join SharingStuff.net must pre-register at the relevant section. To facilitate a faster registration, you may use your own Facebook or Gmail account, and in the case of non-availability of these accounts can be made from within the web platform."
+  terms22: "The following data will be asked: username and password (the user are responsible for their security to access your personal account), email address and profile picture (optional), all indicating expressly acknowledge and agree these Rules to click Accept, 'I accept the terms of use and privacy policy' SharingStuff.net consenting so try your data. At that point you will receive an email confirming receipt of the same. To complete the registration must include at least one Stuff, which want to give away and/or lend, which you must include an approximate location."
+  terms23: "Acceptance Rule's website is permanent, constant and ratified by the fact of using your personal account and password."  
+  terms3: "3. DATA PROTECTION"
+  terms31: "The data information provided will help us to get in touch with other members of the social network you want to share any Stuff. At no time will intentionally use to send advertising or for any other use outside own web activity. In any case, always be consulted in advance and personally. The users are responsible for the veracity of the data provided to SharingStuff.net as well as updating them whenever they suffered any change."
+  terms32: "Furthermore, SharingStuff.net take all measures at its disposal to ensure compliance with the spanish law 15/1999, including their data in an automated file registered with the Data Protection Agency in Spain."
+  terms33: "At any time you have a right of access, rectification and cancellation of the personal data by sending an e-mail to info.sharingstuff@gmail.com."
+  terms4: "4. RIGHTS, OBLIGATIONS AND EXCLUSION OF LIABILITY" 
+  terms41: "To ensure the correct use of the website, we include obligations that users have to comply at all times, whether registered or not on the web."      
+  terms42: "The user undertakes to make appropriate use of content and services offered SharingStuff.net no longer used for (i) engaging in illegal activities, illegal or contrary to good faith and public order, (ii) disseminate content or propaganda of a racist, xenophobic, pornographic, illegal, apology of terrorism or against human rights; (iii) cause damage SharingStuff.net systems, its suppliers or third parties, introducing or spreading computer viruses or any other hardware or software capable of causing the aforementioned damage, (iv) attempt to access and, if necessary, use the email accounts of other users and modify or manipulate their messages."
+  terms43: "The user will have the unique liability over others users and third parties of information in any format placed on the web or transmitted personal capacity."
+  terms44: "SharingStuff.net not be liable, either directly, or indirectly or secondarily, for damages of any nature arising from the lack of veracity, accuracy and/or authenticity, legality of any data or information contained in any of the means used or opinions expressed by users through forums, chats or other participation tools."
+  terms45: "SharingStuff.net also reserves the right to cancel any account that generates any conflict or false or outdated information and remove any comments and contributions that violate the commitments outlined above."
+  terms5: "5. EXCLUSION OF GUARANTEES AND LIABILITY FOR THE CONTENT OF THE WEB" 
+  terms51: "SharingStuff.net no way guarantees that the functions contained in the Website or any other material of the same are offered free from interruption or failure, or that errors will be corrected, or the transmission of viruses or other harmful components."
+  terms52: "SharingStuff.net not be liable, directly or indirectly, website interruptions that may affect the receipt, processing, acceptance or agreement or transaction listings on the site."
+  terms53: "SharingStuff.net has the right to change, suspend or discontinue at any time and without liability, any aspect of the service, including hours of operation. Likewise shall have the right to impose limits or restrictions on certain uses of the Service."
+  terms6: "6. EXCLUSION OF GUARANTEES AND LIABILITY IN STUFF"
+  terms61: "The Stuff given away and / or lent between SharingStuff.net's members are subject to the agreements reached by the participants, being free from any obligation SharingStuff.net from the time they get contact."
+  terms62: "It will be the sole responsibility of the users information exchange, between them and may specify the procedure to share the requested Stuff, the loan period and the most appropriate way to do so, and even facilitate contact otherwise more comfortable for both. The user reserves the right to accept or not the sharing its Stuff, based on ratings and reviews who makes the request, SharingStuff.net being free from any liability arising from the transaction."
+  terms63: "The person owner of any Stuff included in your profile must communicate in advance the damage that it could have, as well as how to use it, and / or arrange the appropriate compensation if a deteriorated Stuff are received once borrowed."
+  terms7: "7. COOKIES AND LOG'S FILES"
+  terms71: "SharingStuff.net may place 'cookies' on the hard drive and / or memory device that accesses the portal, in order to recognize it as user and personalize your use. Cookies are stored on the hard drive of your computer or your device memory until you delete them. You may set your browser to notify you of the presence of cookies, or to reject them automatically. If you reject cookies you can still access the site, although this may involve limiting the use of some of the services or prevent the proper functioning of the website."  
+  terms8: "8. LINKS"
+  terms81: "If we include web links or hyperlinks to other Internet sites, SharingStuff.net will not exercise any control over such sites, not assume any responsibility for the content or information from them, or ensure their availability, quality, reliability, accuracy, comprehensiveness, accuracy, validity and constitutionality. Also the inclusion of external links does not imply any type of association, merger or partnership with the entities connected."
+  terms9: "9. INTELLECTUAL PROPERTY"
+  terms91: "SharingStuff.net is the holder of all intellectual property rights of its website, as well as the elements contained in the same (not limited to, images, sound, audio, video, software or texts, trademarks or logos, etc..). All rights reserved. Under the provisions of Articles 8 and 32.1, second paragraph, of the spanish law on Intellectual Property, is expressly prohibited reproduction, distribution and public communication, including any means of making available of all or part of the contents of this website for commercial purposes, in any form or by any technical means, without the permission of SharingStuff.net. The user agrees to respect the rights of intellectual property owned by SharingStuff.net."
+  terms92: "You can view the elements of the website and even print, copy and store as long as it is only and exclusively for personal and private use. The user may not remove, alter, or manipulate any protection device or security system that was installed in SharingStuff.net page."
+
+  
+#Footer
+
+  sharingstuff2013: "SharingStuff 2013. All rights reserved."
+  politica: "Privacy Policy"
+  condiciones: "Terms of Use"
